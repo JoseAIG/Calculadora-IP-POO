@@ -1,0 +1,10 @@
+LA BASE DE DATOS SE LLAMA "CalculadoraIP"
+
+//TABLA IPv4
+CREATE TABLE IPv4 (ipv4 VARCHAR (15), mascara VARCHAR (15),ipv4binario VARCHAR(35),mascarabinario VARCHAR(35),tipo VARCHAR(110), clase VARCHAR(8),dir_red VARCHAR(18),dir_gateway VARCHAR(15),dir_broadcast VARCHAR(15),rango VARCHAR(35), primary key (ipv4, mascara));
+
+//TABLA IPv6
+CREATE TABLE IPv6 (ipv6 VARCHAR(39), mascara VARCHAR(4), ipv6_binario VARCHAR(135), tipo VARCHAR(200), PRIMARY KEY (ipv6, mascara));
+
+//TABLA NUMERO HOSTS 
+CREATE TABLE NroHosts (hosts INTEGER NOT NULL, red_requerida VARCHAR(20), hosts_maximos INTEGER, hosts_libres INTEGER, rango_maximo VARCHAR(35), PRIMARY KEY (hosts));
