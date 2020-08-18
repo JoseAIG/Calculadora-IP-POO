@@ -50,6 +50,7 @@ public class Vista_Historial {
 	public Vista_Historial(ArrayList<Object[]> AL) {
 				
 		marcoHistorial.setLayout(null);
+		marcoHistorial.setTitle("Historial de registros");
 		marcoHistorial.setSize(700,400);
 		marcoHistorial.setLocationRelativeTo(null);
 		marcoHistorial.setVisible(true);

@@ -84,6 +84,7 @@ public class Vista_Principal {
 		
 		marcoPrincipal.setLayout(null);
 		marcoPrincipal.setResizable(false);
+		marcoPrincipal.setTitle("Calculadora de direcciones IP");
 		marcoPrincipal.setSize(425, 250);
 		marcoPrincipal.setLocationRelativeTo(null);
 		marcoPrincipal.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
