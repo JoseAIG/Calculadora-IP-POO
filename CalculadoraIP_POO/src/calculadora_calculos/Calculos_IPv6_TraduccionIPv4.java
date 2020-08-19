@@ -108,7 +108,7 @@ public class Calculos_IPv6_TraduccionIPv4 {
 				error=true;
 			}
 			
-			if(IPv6_Ingresada.startsWith(":") || IPv6_Ingresada.endsWith(":")) {
+			if(IPv6_Ingresada.startsWith(":") || IPv6_Ingresada.endsWith(":") || IPv6_Ingresada.endsWith(".") || IPv6_Ingresada.startsWith(".") ) {
 				error=true;
 			}
 			
